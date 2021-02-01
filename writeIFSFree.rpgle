@@ -22,7 +22,7 @@
   dcl-s SndData char(32767) ;
   dcl-s i packed(3) ;
 
-  PathFile = '/Simon/test_write.txt' + x'00' ;
+  PathFile = '/tmp/test_write.txt' + x'00' ;
   OpenMode = 'w, o_ccsid=1252' + x'00' ;
   FilePtr = OpenFile(%addr(PathFile):%addr(OpenMode)) ;
 

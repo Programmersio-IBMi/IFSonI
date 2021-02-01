@@ -79,3 +79,6 @@
      CloseIfs(FileDescriptor) ;
      *InLr = *On ;
      
+     
+     // https://www.ibmiupdates.com/2016/09/working-with-ifs-in-rpgle.html#:~:text=Working%20with%20IFS%20file%20has%20always%20been%20one,using%20CPYFRMIMPF/CPYFRMSTMF.%20Read%20the%20Flat%20file%20in%20RPGLE.
+     //

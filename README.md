@@ -87,8 +87,5 @@ File system	|Description	|Works Like |
  
  [Using API](https://www.ibm.com/support/knowledgecenter/en/ssw_ibm_i_73/ifs/rzaaxprogapi.htm)
  
- 
- 
- 
- 
+ [Authorities](https://www.scottklement.com/rpg/ifs_ebook/basics.html)
  

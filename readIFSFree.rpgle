@@ -1,5 +1,6 @@
   ctl-opt dftactgrp(*no) ;
-
+  
+  // https://www.ibm.com/support/knowledgecenter/ssw_ibm_i_73/apis/open.htm
   dcl-pr OpenFile int(10) extproc('open') ;
     *n pointer value options(*string) ;
     *n int(10) value ;
@@ -8,16 +9,19 @@
     *n uns(10) value options(*nopass) ;
    end-pr ;
 
+   // https://www.ibm.com/support/knowledgecenter/ssw_ibm_i_73/apis/read.htm
    dcl-pr ReadFile int(10) extproc('read') ;
      *n int(10) value ;
      *n pointer value ;
      *n uns(10) value ;
    end-pr ;
 
+   // https://www.ibm.com/support/knowledgecenter/ssw_ibm_i_73/apis/close.htm
    dcl-pr CloseFile int(10) extproc('close') ;
      *n  int(10) value ;
    end-pr ;
 
+  // https://www.ibm.com/support/knowledgecenter/ssw_ibm_i_73/apis/open.htm#HDROPNFLAG
   dcl-c O_RDONLY 1 ;           //Read only
   dcl-c O_TEXTDATA 16777216 ;  //Open in text mode
   dcl-c O_CCSID 32 ;           //CCSID

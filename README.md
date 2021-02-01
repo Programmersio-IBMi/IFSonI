@@ -75,3 +75,13 @@ File system	|Description	|Works Like |
 
  The characteristics of the QFileSvr.400 file system are determined by the characteristics of the file system that are being accessed on the target system.
  
+ ## CHGCURDIR
+ 
+ You can specify a directory other than the home directory as your current directory at any time after you sign on by using the Change Current Directory (CHGCURDIR) CL command,  the chdir( ) API, or the fchdir() API.
+ 
+ [More Info](https://www.ibm.com/support/knowledgecenter/en/ssw_ibm_i_73/ifs/rzaaxhomedir.htm)
+ 
+ 
+ 
+ 
+ 

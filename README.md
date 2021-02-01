@@ -81,6 +81,13 @@ File system	|Description	|Works Like |
  
  [More Info](https://www.ibm.com/support/knowledgecenter/en/ssw_ibm_i_73/ifs/rzaaxhomedir.htm)
  
+ ## Accessing the IFS 
+ 
+ [Using CL Commands](https://www.ibm.com/support/knowledgecenter/en/ssw_ibm_i_73/ifs/rzaaxaccessifs.htm)
+ 
+ [Using API](https://www.ibm.com/support/knowledgecenter/en/ssw_ibm_i_73/ifs/rzaaxprogapi.htm)
+ 
+ 
  
  
  
